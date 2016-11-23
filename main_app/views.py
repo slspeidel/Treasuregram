@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 # Create your views here.
 def index(request):
-    #name = 'Gold Nuget'
+    #name = 'Gold Nugget'
     #value = 1000.00
     #context = {'treasure_name': name, 'treasure_value': value}
 

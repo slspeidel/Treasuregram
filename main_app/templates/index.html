@@ -10,7 +10,7 @@
     <body>
         <nav class="navbar navbar-default navbar-static-top text-center">
             <a href="/">
-                <img src="{% static 'images/logo.png' %} alt="TreasureGram" />
+                <img src="{% static 'images/logo.png' %}" alt="TreasureGram" />
             </a>
         </nav>
         <main class="container" role="main">
@@ -21,7 +21,8 @@
                     </div>
                     <div class="panel-body">
                         <div class="treasure-photo">
-                            <img src="{{treasure.img_url}}" height="200" alt='treasure image' />
+                            <!--<img src="{{treasure.img_url}}" height="200" alt='treasure image' />-->
+                            <img src="{% static treasure.img_url %}" height="200" alt='treasure image' />
                         </div>
                         <table>
                             <tr>
